@@ -10,6 +10,7 @@
        url('/files/manual/fonts/lato-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
        url('/files/manual/fonts/lato-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('/files/manual/fonts/lato-v23-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
 
 /* lato-italic - latin */
@@ -24,6 +25,7 @@
        url('/files/manual/fonts/lato-v23-latin-italic.woff') format('woff'), /* Modern Browsers */
        url('/files/manual/fonts/lato-v23-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
        url('/files/manual/fonts/lato-v23-latin-italic.svg#Lato') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
 
 /* lato-900 - latin */
@@ -38,6 +40,7 @@
        url('/files/manual/fonts/lato-v23-latin-900.woff') format('woff'), /* Modern Browsers */
        url('/files/manual/fonts/lato-v23-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
        url('/files/manual/fonts/lato-v23-latin-900.svg#Lato') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
 
 /* lato-900italic - latin */
@@ -52,4 +55,5 @@
        url('/files/manual/fonts/lato-v23-latin-900italic.woff') format('woff'), /* Modern Browsers */
        url('/files/manual/fonts/lato-v23-latin-900italic.ttf') format('truetype'), /* Safari, Android, iOS */
        url('/files/manual/fonts/lato-v23-latin-900italic.svg#Lato') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
