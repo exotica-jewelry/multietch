@@ -11,7 +11,7 @@
   .sqs-gallery-controls
   .previous::before {
   content: "\2B9C" !important;
-  font-family: "freight-sans-pro" !important;
+  font-family: "Lato" !important;
   font-size: 32px !important;
   width: 32px !important;
   height: 32px !important;
@@ -31,7 +31,7 @@
   .sqs-gallery-controls
   .next::before {
   content: "\2B9E" !important;
-  font-family: "freight-sans-pro" !important;
+  font-family: "Lato" !important;
   font-size: 32px !important;
   width: 32px !important;
   height: 32px !important;
