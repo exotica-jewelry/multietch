@@ -94,6 +94,13 @@ video {
   z-index: 0;
 }
 
+@media only screen and (min-width: 500px) {
+  .custom-order-button-container .custom-order-button,
+  .custom-order-button-container .custom-order-button:visited {
+    display: inline-block;
+  }
+}
+
 .custom-order-button::before {
   content: '';
   position: absolute;
