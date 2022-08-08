@@ -69,7 +69,7 @@ video {
 /* New order button */
 
 .custom-order-button-container {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .custom-order-button-container .custom-order-button,
@@ -123,23 +123,24 @@ video {
 }
 
 .custom-order-button::after {
-  z-index: -1;
   content: '';
   position: absolute;
+  left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
   background: radial-gradient(circle, rgb(0, 0, 0) 40%, rgb(88, 88, 88) 100%);
-  left: 0;
-  top: 0;
+  color: white;
   border-radius: 2rem;
   transition: 750ms;
+  z-index: -1;
 }
 
 .custom-order-button:hover,
 .custom-order-button:active,
 .custom-order-button:focus {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .custom-order-button:hover::after,
