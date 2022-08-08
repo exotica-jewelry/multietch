@@ -75,6 +75,7 @@ video {
 .custom-order-button-container .custom-order-button,
 .custom-order-button-container .custom-order-button:visited {
   position: relative;
+  display: block;
   padding: 1rem 2rem;
   border: none;
   outline: none;
