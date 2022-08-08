@@ -68,28 +68,38 @@ video {
 
 /* New order button */
 
-.custom-order-button {
+.custom-order-button-container {
+  margin-top: 1rem;
+}
+
+.custom-order-button-container .custom-order-button,
+.custom-order-button-container .custom-order-button:visited {
+  position: relative;
   padding: 1rem 2rem;
   border: none;
   outline: none;
-  color: #fff;
-  background: #000;
+  background: black;
+  color: white;
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: capitalize;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
   border-radius: 2rem;
   transition: 750ms;
+  cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  z-index: 0;
 }
 
 .custom-order-button::before {
   content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
   background: linear-gradient(
     45deg,
     #ff0000,
@@ -102,18 +112,14 @@ video {
     #ff00c8,
     #ff0000
   );
-  position: absolute;
-  top: -2px;
-  left: -2px;
   background-size: 400%;
-  z-index: -1;
+  border-radius: 50%;
+  color: white;
   filter: blur(15px);
   -webkit-filter: blur(15px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
   animation: glow 20s linear infinite;
   transition: opacity 0.3s ease-in-out;
-  border-radius: 50%;
+  z-index: -1;
 }
 
 .custom-order-button::after {
