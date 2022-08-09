@@ -1,3 +1,11 @@
+/* Logo alterations */
+@media only screen and (max-width: 768px) {
+  #header #logoWrapper #logoImage img,
+  #header #siteTitleWrapper #logoImage img {
+    max-height: 100px;
+  }
+}
+
 /* Previous slide controls */
 #featured-display-section .index-gallery .arrow.previous-slide::before,
 #testimonials-display-section .sqs-gallery-controls .previous::before,
