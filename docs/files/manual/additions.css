@@ -1,7 +1,7 @@
 /* Logo alterations */
 @media only screen and (max-width: 768px) {
-  #header #logoWrapper #logoImage img,
-  #header #siteTitleWrapper #logoImage img {
+  #site #header #logoWrapper #logoImage img,
+  #site #header #siteTitleWrapper #logoImage img {
     max-height: 100px;
   }
 }
