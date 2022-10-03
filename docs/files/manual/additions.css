@@ -16,7 +16,7 @@
 .transparent-header.collection-type-index #header,
 .transparent-header.view-list #header,
 .transparent-header.collection-type-page #header {
-  background-color: #44165a;
+  background-color: #44165a !important;
 }
 
 /* Previous slide controls */
