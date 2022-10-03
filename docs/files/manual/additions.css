@@ -12,7 +12,10 @@
   background: url("/files/manual/TitaniumSheet_sm_repeat.png");
 }
 
-#header {
+#header,
+.transparent-header.collection-type-index #header,
+.transparent-header.view-list #header,
+.transparent-header.collection-type-page #header {
   background-color: #44165a;
 }
 
