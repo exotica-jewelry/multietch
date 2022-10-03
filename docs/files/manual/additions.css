@@ -19,6 +19,16 @@
   background-color: #44165a !important;
 }
 
+.homepage #intro-display-section .index-top-bg .content.has-main-media h2:not(.OT_subtitle) {
+  font-size: clamp(2.125rem, 1.2321rem + 2.8571vw, 3.375rem);
+  text-shadow:
+    0 0 2px black,
+    1px 1px 5px black,
+    1px 1px 10px black,
+    1px 1px 20px black
+  ;
+}
+
 /* Previous slide controls */
 #featured-display-section .index-gallery .arrow.previous-slide::before,
 #testimonials-display-section .sqs-gallery-controls .previous::before,
