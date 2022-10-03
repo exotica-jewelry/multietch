@@ -6,6 +6,16 @@
   }
 }
 
+/* Header background */
+
+.index-top-bg {
+  background: url("/files/manual/TitaniumSheet_sm_repeat.png");
+}
+
+#header {
+  background-color: #44165a;
+}
+
 /* Previous slide controls */
 #featured-display-section .index-gallery .arrow.previous-slide::before,
 #testimonials-display-section .sqs-gallery-controls .previous::before,
