@@ -219,7 +219,7 @@ video {
 
 .signup_form_wrap {
   padding: 1rem 0;
-  background-color: #44165a
+  background-color: #44165a;
 }
 
 .signup_form {
@@ -320,12 +320,12 @@ video {
   content: "x ";
   speak: none;
 }
-.signup_form .signup_privacy {
+.signup_privacy {
   margin: 0;
   font-size: 12px;
   text-align: center;
 }
-.signup_form .signup_privacy a {
+.signup_privacy a {
   color: #fff;
   text-decoration: none;
 }
